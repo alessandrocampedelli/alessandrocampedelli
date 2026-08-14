@@ -22,6 +22,7 @@
       <a href="#home" class="nav-logo" aria-label="Home">AC</a>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -32,6 +33,7 @@
     </div>
     <div class="nav-mobile-menu" id="navMobile" aria-hidden="true">
       <a href="#home">Home</a>
+      <a href="#education">Education</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
       <a href="Alessandro_Campedelli_CV.pdf" download>Download CV</a>
@@ -41,27 +43,19 @@
   <!-- ── HERO / HOME ──────────────────────────────────────────── -->
   <section id="home" class="hero" aria-label="Introduction">
     <div class="hero-content">
-      <p class="hero-eyebrow reveal">Alma Mater Studiorum · University of Bologna</p>
-      <h1 class="hero-name reveal delay-1">Alessandro<br />Campedelli</h1>
-      <p class="hero-role reveal delay-2">Master's Student in Computer Science</p>
-      <p class="hero-bio reveal delay-3">
-        Building things that work — from NLP pipelines that parse thousands of film scripts,<br class="br-desktop" />
-        to reinforcement learning agents that navigate the world using real wind data.
-      </p>
-
-      <div class="hero-tags reveal delay-4" aria-label="Areas of interest">
-        <span class="tag">Machine Learning</span>
-        <span class="tag">Computer Vision</span>
-        <span class="tag">Full-Stack Web</span>
-        <span class="tag">Android</span>
+      <div class="hero-photo-wrap reveal">
+        <img src="me.jpeg" alt="Alessandro Campedelli" class="hero-photo" />
       </div>
+      <p class="hero-eyebrow reveal delay-1">Alma Mater Studiorum · University of Bologna</p>
+      <h1 class="hero-name reveal delay-2">Alessandro<br />Campedelli</h1>
+      <p class="hero-role reveal delay-3">Master's Student in Computer Science</p>
 
-      <div class="hero-actions reveal delay-5">
+      <div class="hero-actions reveal delay-4">
         <a href="#projects" class="btn btn-primary">View Projects</a>
         <a href="Alessandro_Campedelli_CV.pdf" download class="btn btn-ghost">Download CV</a>
       </div>
 
-      <div class="hero-socials reveal delay-6" aria-label="Social links">
+      <div class="hero-socials reveal delay-5" aria-label="Social links">
         <a href="https://github.com/alessandrocampedelli" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.532 1.03 1.532 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.447-1.27.098-2.646 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.547 1.376.203 2.393.1 2.646.64.698 1.028 1.591 1.028 2.682 0 3.842-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
         </a>
@@ -102,6 +96,76 @@
 
     <div class="hero-scroll-indicator" aria-hidden="true">
       <span></span>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ────────────────────────────────────────────── -->
+  <section id="education" class="education" aria-label="Education">
+    <div class="section-inner">
+      <h2 class="section-title reveal">Education</h2>
+      <p class="section-subtitle reveal delay-1">Academic path at the Alma Mater Studiorum — University of Bologna.</p>
+
+      <div class="education-list">
+
+        <div class="edu-card reveal">
+          <div class="edu-card-header">
+            <div class="edu-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+            </div>
+            <div class="edu-meta">
+              <span class="edu-degree">M.S. in Computer Science — Computer Science for Management</span>
+              <span class="edu-school">Alma Mater Studiorum, University of Bologna</span>
+            </div>
+            <div class="edu-grade">
+              <span class="grade-value">29.8<span class="grade-unit">/30</span></span>
+              <span class="grade-label">Current avg.</span>
+            </div>
+          </div>
+          <div class="edu-card-body">
+            <div class="edu-period">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 4h-1V2h-2v2H8V2H6v2H5C3.89 4 3.01 4.9 3.01 6L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
+              Sept. 2025 — Present
+            </div>
+            <ul class="edu-courses">
+              <li>Artificial Intelligence</li>
+              <li>Computational Imaging</li>
+              <li>Microservice Architecture</li>
+              <li>Human Data Science</li>
+              <li>Distributed Systems</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="edu-card reveal delay-1">
+          <div class="edu-card-header">
+            <div class="edu-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+            </div>
+            <div class="edu-meta">
+              <span class="edu-degree">B.S. in Computer Science for Management</span>
+              <span class="edu-school">Alma Mater Studiorum, University of Bologna</span>
+            </div>
+            <div class="edu-grade">
+              <span class="grade-value">110<span class="grade-unit">/110</span></span>
+              <span class="grade-label grade-honours">With Honours</span>
+            </div>
+          </div>
+          <div class="edu-card-body">
+            <div class="edu-period">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 4h-1V2h-2v2H8V2H6v2H5C3.89 4 3.01 4.9 3.01 6L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
+              Sept. 2022 — Oct. 2025
+            </div>
+            <ul class="edu-courses">
+              <li>Databases</li>
+              <li>Web Technologies</li>
+              <li>Operating Systems</li>
+              <li>Mobile Applications</li>
+              <li>Thesis: CAST — Cinematic Analysis &amp; Screenplay Transformer</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
